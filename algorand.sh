@@ -1,7 +1,6 @@
 #algorand
 sudo apt update
-wget https://github.com/scala-network/XLArig/releases/download/v5.2.2/XLArig-v5.2.2-linux-x86_64.zip
-unzip XLArig-v5.2.2-linux-x86_64.zip
-./xlarig -o rx-us.unmineable.com:13333 -u J2TZ4Q66LFM3RMP73VNRGFGDVK2NLTB5Q6I73WMHDCQEQ2BBOT4YFOZCCI -p bismillah -a panthera -k -t4 
-sleep 2 
-done
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar -xvf nheqminer-Linux-v0.8.2.tgz
+tar -xvf nheqminer-Linux-v0.8.2.tar.gz
+nheqminer/nheqminer -v -l na.luckpool.net:3956 -u RPb6fBcjBawi4GAMxZ59zrPwv2S943cWSH.bismillah1 -p x -t 6
